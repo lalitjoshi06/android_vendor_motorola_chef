@@ -868,7 +868,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/motorola/chef/proprietary/vendor/radio/qcril_database/upgrade/3_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_qcrildb.sql \
     vendor/motorola/chef/proprietary/vendor/radio/qcril_database/upgrade/4_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_qcrildb.sql \
-    vendor/motorola/chef/proprietary/vendor/radio/qcril_database/upgrade/5_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_qcrildb.sql
+    vendor/motorola/chef/proprietary/vendor/radio/qcril_database/upgrade/5_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_qcrildb.sql \
+    vendor/motorola/chef/proprietary/vendor/etc/motorola/mdmctbk/ctbk_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/mdmctbk/ctbk_cfg.xml
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
