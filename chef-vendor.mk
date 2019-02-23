@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+	vendor/motorola/chef/proprietary/vendor/etc/permissions/embms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/embms.xml \
     vendor/motorola/chef/proprietary/vendor/etc/permissions/com.motorola.moto.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.moto.xml \
     vendor/motorola/chef/proprietary/vendor/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motodisplay.xml \
     vendor/motorola/chef/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
@@ -26,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/chef/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/chef/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QtiTelephonyServicelibrary.jar \
     vendor/motorola/chef/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+	vendor/motorola/chef/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/motorola/chef/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/motorola/chef/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
     vendor/motorola/chef/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
@@ -890,6 +892,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     CNEService \
+	embms \
     ims \
     qcrilmsgtunnel \
     QtiTelephonyService \
